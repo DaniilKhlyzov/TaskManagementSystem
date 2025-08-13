@@ -1,0 +1,30 @@
+@TaskService_HostAddress = http://localhost:5002
+
+### Sample CRUD calls
+POST {{TaskService_HostAddress}}/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Test task",
+  "description": "via http file"
+}
+
+###
+GET {{TaskService_HostAddress}}/api/tasks
+
+###
+GET {{TaskService_HostAddress}}/api/tasks/{{taskId}}
+
+###
+PUT {{TaskService_HostAddress}}/api/tasks/{{taskId}}
+Content-Type: application/json
+
+{
+  "id": "{{taskId}}",
+  "title": "Updated title",
+  "description": "Updated description",
+  "status": 1
+}
+
+###
+DELETE {{TaskService_HostAddress}}/api/tasks/{{taskId}}

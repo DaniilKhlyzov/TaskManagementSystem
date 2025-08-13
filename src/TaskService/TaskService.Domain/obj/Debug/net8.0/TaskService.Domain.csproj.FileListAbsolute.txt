@@ -1,0 +1,11 @@
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\bin\Debug\net8.0\TaskService.Domain.deps.json
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\bin\Debug\net8.0\TaskService.Domain.dll
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\bin\Debug\net8.0\TaskService.Domain.pdb
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\obj\Debug\net8.0\TaskService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\obj\Debug\net8.0\TaskService.Domain.AssemblyInfoInputs.cache
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\obj\Debug\net8.0\TaskService.Domain.AssemblyInfo.cs
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\obj\Debug\net8.0\TaskService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\obj\Debug\net8.0\TaskService.Domain.dll
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\obj\Debug\net8.0\refint\TaskService.Domain.dll
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\obj\Debug\net8.0\TaskService.Domain.pdb
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Domain\obj\Debug\net8.0\ref\TaskService.Domain.dll

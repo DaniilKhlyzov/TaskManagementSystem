@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LWxPv165xdI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\angel\\TaskManagementSystem\\src\\Common\\TaskManagement.EventBus\\TaskManagement.EventBus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\angel\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.18\\microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.18\\microsoft.windowsdesktop.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.18\\microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

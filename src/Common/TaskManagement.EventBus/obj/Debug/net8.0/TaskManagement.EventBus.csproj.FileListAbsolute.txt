@@ -1,0 +1,11 @@
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\bin\Debug\net8.0\TaskManagement.EventBus.deps.json
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\bin\Debug\net8.0\TaskManagement.EventBus.dll
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\bin\Debug\net8.0\TaskManagement.EventBus.pdb
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\obj\Debug\net8.0\TaskManagement.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\obj\Debug\net8.0\TaskManagement.EventBus.AssemblyInfoInputs.cache
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\obj\Debug\net8.0\TaskManagement.EventBus.AssemblyInfo.cs
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\obj\Debug\net8.0\TaskManagement.EventBus.csproj.CoreCompileInputs.cache
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\obj\Debug\net8.0\TaskManagement.EventBus.dll
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\obj\Debug\net8.0\refint\TaskManagement.EventBus.dll
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\obj\Debug\net8.0\TaskManagement.EventBus.pdb
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.EventBus\obj\Debug\net8.0\ref\TaskManagement.EventBus.dll

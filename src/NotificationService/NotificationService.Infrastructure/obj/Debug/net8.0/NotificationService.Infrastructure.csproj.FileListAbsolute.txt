@@ -1,0 +1,17 @@
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\bin\Debug\net8.0\NotificationService.Infrastructure.deps.json
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\bin\Debug\net8.0\NotificationService.Infrastructure.runtimeconfig.json
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\bin\Debug\net8.0\NotificationService.Infrastructure.dll
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\bin\Debug\net8.0\NotificationService.Infrastructure.pdb
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\bin\Debug\net8.0\NotificationService.Domain.dll
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\bin\Debug\net8.0\NotificationService.Domain.pdb
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\NotificationService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\NotificationService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\NotificationService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\NotificationService.Infrastructure.AssemblyInfo.cs
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\NotificationService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\Notifica.C5696791.Up2Date
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\NotificationService.Infrastructure.dll
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\refint\NotificationService.Infrastructure.dll
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\NotificationService.Infrastructure.pdb
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\NotificationService.Infrastructure.genruntimeconfig.cache
+C:\Users\angel\TaskManagementSystem\src\NotificationService\NotificationService.Infrastructure\obj\Debug\net8.0\ref\NotificationService.Infrastructure.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tUMXW7o94xa805/01DbOIntbg9iG9eKwoL0b5BEH53Q=",
+  "Source": "ApiGateway.API",
+  "BasePath": "_content/ApiGateway.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

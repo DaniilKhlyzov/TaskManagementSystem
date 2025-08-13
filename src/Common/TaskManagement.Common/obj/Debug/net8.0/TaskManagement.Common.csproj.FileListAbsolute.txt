@@ -1,0 +1,12 @@
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\bin\Debug\net8.0\TaskManagement.Common.deps.json
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\bin\Debug\net8.0\TaskManagement.Common.dll
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\bin\Debug\net8.0\TaskManagement.Common.pdb
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\obj\Debug\net8.0\TaskManagement.Common.csproj.AssemblyReference.cache
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\obj\Debug\net8.0\TaskManagement.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\obj\Debug\net8.0\TaskManagement.Common.AssemblyInfoInputs.cache
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\obj\Debug\net8.0\TaskManagement.Common.AssemblyInfo.cs
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\obj\Debug\net8.0\TaskManagement.Common.csproj.CoreCompileInputs.cache
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\obj\Debug\net8.0\TaskManagement.Common.dll
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\obj\Debug\net8.0\refint\TaskManagement.Common.dll
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\obj\Debug\net8.0\TaskManagement.Common.pdb
+C:\Users\angel\TaskManagementSystem\src\Common\TaskManagement.Common\obj\Debug\net8.0\ref\TaskManagement.Common.dll

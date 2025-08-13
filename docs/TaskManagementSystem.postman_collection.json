@@ -1,0 +1,237 @@
+{
+  "info": {
+    "name": "TaskManagementSystem (Gateway)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Register",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"user@example.com\",\n  \"firstName\": \"John\",\n  \"lastName\": \"Doe\",\n  \"password\": \"P@ssw0rd\"\n}"
+            },
+            "url": {
+              "raw": "{{gateway}}/api/auth/register",
+              "host": [
+                "{{gateway}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"P@ssw0rd\"\n}"
+            },
+            "url": {
+              "raw": "{{gateway}}/api/auth/login",
+              "host": [
+                "{{gateway}}"
+              ],
+              "path": [
+                "api","auth","login"
+              ]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "try {",
+                  "  const data = pm.response.json();",
+                  "  if (data && data.token) { pm.environment.set('jwt', data.token); }",
+                  "} catch (e) { /* ignore */ }",
+                  "pm.test('Login status is 200', function () { pm.response.to.have.status(200); });"
+                ]
+              }
+            }
+          ],
+          "response": []
+        },
+        {
+          "name": "Me",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{jwt}}" }
+            ],
+            "url": {
+              "raw": "{{gateway}}/api/auth/me",
+              "host": [
+                "{{gateway}}"
+              ],
+              "path": ["api","auth","me"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Tasks",
+      "item": [
+        {
+          "name": "List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{gateway}}/api/tasks?page=1&pageSize=10&status=Pending&search=bug",
+              "host": ["{{gateway}}"],
+              "path": ["api","tasks"],
+              "query": [
+                {"key":"page","value":"1"},
+                {"key":"pageSize","value":"10"},
+                {"key":"status","value":"Pending"},
+                {"key":"search","value":"bug"}
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get by Id",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{gateway}}/api/tasks/{{taskId}}",
+              "host": ["{{gateway}}"],
+              "path": ["api","tasks","{{taskId}}"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create",
+          "request": {
+            "method": "POST",
+            "header": [ {"key":"Content-Type","value":"application/json"} ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Fix bug\",\n  \"description\": \"NullReferenceException on login\",\n  \"status\": 0\n}"
+            },
+            "url": {
+              "raw": "{{gateway}}/api/tasks",
+              "host": ["{{gateway}}"],
+              "path": ["api","tasks"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update",
+          "request": {
+            "method": "PUT",
+            "header": [ {"key":"Content-Type","value":"application/json"} ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Fix bug (repro added)\",\n  \"description\": \"Added steps to reproduce\",\n  \"status\": 1\n}"
+            },
+            "url": {
+              "raw": "{{gateway}}/api/tasks/{{taskId}}",
+              "host": ["{{gateway}}"],
+              "path": ["api","tasks","{{taskId}}"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{gateway}}/api/tasks/{{taskId}}",
+              "host": ["{{gateway}}"],
+              "path": ["api","tasks","{{taskId}}"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Assign",
+          "request": {
+            "method": "PUT",
+            "url": {
+              "raw": "{{gateway}}/api/tasks/{{taskId}}/assign?assigneeId={{assigneeId}}",
+              "host": ["{{gateway}}"],
+              "path": ["api","tasks","{{taskId}}","assign"],
+              "query": [
+                {"key":"assigneeId","value":"{{assigneeId}}"}
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Notifications",
+      "item": [
+        {
+          "name": "List by user",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{gateway}}/api/notifications/{{userId}}",
+              "host": ["{{gateway}}"],
+              "path": ["api","notifications","{{userId}}"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create",
+          "request": {
+            "method": "POST",
+            "header": [ {"key":"Content-Type","value":"application/json"} ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": \"{{userId}}\",\n  \"title\": \"Build finished\",\n  \"message\": \"All checks have passed\"\n}"
+            },
+            "url": {
+              "raw": "{{gateway}}/api/notifications",
+              "host": ["{{gateway}}"],
+              "path": ["api","notifications"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Mark as read",
+          "request": {
+            "method": "PUT",
+            "url": {
+              "raw": "{{gateway}}/api/notifications/{{notificationId}}/mark-as-read",
+              "host": ["{{gateway}}"],
+              "path": ["api","notifications","{{notificationId}}","mark-as-read"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
+
+

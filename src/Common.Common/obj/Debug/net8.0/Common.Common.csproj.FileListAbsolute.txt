@@ -1,0 +1,5 @@
+C:\Users\angel\TaskManagementSystem\src\Common.Common\obj\Debug\net8.0\Common.Common.csproj.AssemblyReference.cache
+C:\Users\angel\TaskManagementSystem\src\Common.Common\obj\Debug\net8.0\Common.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\TaskManagementSystem\src\Common.Common\obj\Debug\net8.0\Common.Common.AssemblyInfoInputs.cache
+C:\Users\angel\TaskManagementSystem\src\Common.Common\obj\Debug\net8.0\Common.Common.AssemblyInfo.cs
+C:\Users\angel\TaskManagementSystem\src\Common.Common\obj\Debug\net8.0\Common.Common.csproj.CoreCompileInputs.cache

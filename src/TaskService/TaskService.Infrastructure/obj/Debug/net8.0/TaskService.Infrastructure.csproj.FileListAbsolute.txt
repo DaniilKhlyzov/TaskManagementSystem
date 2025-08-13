@@ -1,0 +1,17 @@
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\bin\Debug\net8.0\TaskService.Infrastructure.deps.json
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\bin\Debug\net8.0\TaskService.Infrastructure.runtimeconfig.json
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\bin\Debug\net8.0\TaskService.Infrastructure.dll
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\bin\Debug\net8.0\TaskService.Infrastructure.pdb
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\bin\Debug\net8.0\TaskService.Domain.dll
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\bin\Debug\net8.0\TaskService.Domain.pdb
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\TaskService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\TaskService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\TaskService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\TaskService.Infrastructure.AssemblyInfo.cs
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\TaskService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\TaskServ.7602B35C.Up2Date
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\TaskService.Infrastructure.dll
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\refint\TaskService.Infrastructure.dll
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\TaskService.Infrastructure.pdb
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\TaskService.Infrastructure.genruntimeconfig.cache
+C:\Users\angel\TaskManagementSystem\src\TaskService\TaskService.Infrastructure\obj\Debug\net8.0\ref\TaskService.Infrastructure.dll

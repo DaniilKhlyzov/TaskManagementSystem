@@ -1,0 +1,7 @@
+C:\Users\angel\TaskManagementSystem\src\ApiGateway\obj\Debug\net8.0\ApiGateway.csproj.AssemblyReference.cache
+C:\Users\angel\TaskManagementSystem\src\ApiGateway\obj\Debug\net8.0\ApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\TaskManagementSystem\src\ApiGateway\obj\Debug\net8.0\ApiGateway.AssemblyInfoInputs.cache
+C:\Users\angel\TaskManagementSystem\src\ApiGateway\obj\Debug\net8.0\ApiGateway.AssemblyInfo.cs
+C:\Users\angel\TaskManagementSystem\src\ApiGateway\obj\Debug\net8.0\ApiGateway.csproj.CoreCompileInputs.cache
+C:\Users\angel\TaskManagementSystem\src\ApiGateway\obj\Debug\net8.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\angel\TaskManagementSystem\src\ApiGateway\obj\Debug\net8.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cache
